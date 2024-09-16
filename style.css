@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+    font-family: 'JetBrains Mono';
+}
+
+.navbar {
+    height: 80px;
+}
+
+.navbar img {
+    width: 100px;
+}
+
+
+body{
+    background-color: rgb(32, 33, 95);
+   
+}
+
+.carousel-item img {
+    height: 400px;
+    text-align: center;
+
+}
+
+.carousel-item h5 {
+    color: black;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.carousel-item p {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.card img{
+height: 200px;
+width: 200px;
+border-radius: 15px;
+margin: 15px;
+}
+.camisas {
+    margin-top: 25px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 28px;
+}
+.card {
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .card-title {
+    font-weight: bolder;
+}
+
+.card {
+    box-shadow: 0px 0px 12px 8px rgb(255, 255, 255, 0.1);
+}
+
+.card-text {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.camisas {
+    margin-bottom: 25px;
+}
